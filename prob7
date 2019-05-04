@@ -1,55 +1,28 @@
 #include<iostream>
-
 #include<conio.h>
-
 using namespace std;
 
- 
-
 int main ()
-
 {
-
-                int num, y, i;
-
-                do
-
-                {
-
-                                cout<< "Enter a number: ";
-
-                                cin>> num;
-
-                               
-
-                                if (num <= 0)
-
-                                cout<< "Thank you!";
-
-                                else if (num > 0)
-
-                                {
-
-                                y= 0;
-
-                                for (int i=1;i<=num;++i)
-
-                                y += i;
-
-                                cout<< "The sum of all whole numbers from 1 to " << num << " is: " << y << " " <<endl;
-
-                                }
-
-               
-
+	int num, y, i;
+	do
+	{
+		cout<< "Enter a number: ";
+		cin>> num;
+		
+		if (num <= 0)
+		cout<< "Thank you!";
+		else if (num > 0)
+		{
+		y= 0;
+		for (int i=1;i<=num;++i)
+		y += i;
+		cout<< "The sum of all whole numbers from 1 to " << num << " is: " << y << " " <<endl;
+		}
+	
 }
-
-                while (num > 0);
-
-                _getch();
-
-                return 0;
-
-               
-
+	while (num > 0);
+	_getch();
+	return 0;
+	
 }
