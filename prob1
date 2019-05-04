@@ -1,93 +1,48 @@
 #include<iostream>
-
 #include<conio.h>
-
 using namespace std;
 
- 
-
 int main()
-
 {
-
-                float hours;
-
-                char package;
-
-               
-
-               
-
-                cout<< "Enter the package you have purchased: ";
-
-                cin>> package;
-
-               
-
-                cout<< "Enter the number of hours that were consumed: ";
-
-                cin>> hours;
-
-               
-
-                switch(package)
-
-                {
-
-                                case 'A':
-
-                                case 'a':
-
-                                                if (hours <=10)
-
-                                                cout<< "Your total amount is: P995";
-
-                                                else
-
-                                                cout<< "Your total amount is: " << (hours - 10) * 20 + 995;
-
-                                                break;
-
-                                case 'B':
-
-                                case 'b':
-
-                                                if (hours <=20)
-
-                                                cout<< "Your total amount is: P1495";
-
-                                                else
-
-                                                cout<< "Your total amount is: " << (hours - 20) * 10 + 1495;
-
-                                                break;
-
-                                case 'C':
-
-                                case 'c':
-
-                                                if (hours > 0)
-
-                                                cout<< "Your total amount is: P1995";
-
-                                                else
-
-                                                cout<< "INVALID!!!!";
-
-                                                break;
-
-                                               
-
-                                default:
-
-                                                cout<<"INVALID!!!!";
-
-                               
-
-                }
-
-                _getch();
-
-                return 0;
-
+	float hours;
+	char package;
+	
+	
+	cout<< "Enter the package you have purchased: ";
+	cin>> package;
+	
+	cout<< "Enter the number of hours that were consumed: ";
+	cin>> hours;
+	
+	switch(package)
+	{
+		case 'A':
+		case 'a':
+			if (hours <=10)
+			cout<< "Your total amount is: P995"; 
+			else
+			cout<< "Your total amount is: " << (hours - 10) * 20 + 995;
+			break;
+		case 'B':
+		case 'b':
+			if (hours <=20)
+			cout<< "Your total amount is: P1495"; 
+			else
+			cout<< "Your total amount is: " << (hours - 20) * 10 + 1495;
+			break;
+		case 'C':
+		case 'c':
+			if (hours > 0)
+			cout<< "Your total amount is: P1995"; 
+			else 
+			cout<< "INVALID!!!!";
+			break;
+			
+		default:
+			cout<<"INVALID!!!!";
+		
+	}
+	_getch();
+	return 0;
 }
+
