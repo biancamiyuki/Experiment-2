@@ -1,49 +1,56 @@
 #include<iostream>
-
 #include<conio.h>
-
 using namespace std;
-
- 
 
 int main ()
 
- 
+{
+	int n1, n2, n3;
+	cout<< "Enter the first number: "; 
+	cin>> n1;
+	cout<< "Enter the second number: ";
+	cin>> n2;
+	cout<< "Enter the third number: ";
+	cin>> n3;
+	
+	if (n1 >= n2 && n1 >= n3)
+	cout<< "The largest among the three numbers is: " << n1;
+	else if (n2 >= n1 && n2 >= n3)
+	cout<< "The largest among the three numbers is: " << n2;
+	else 
+	cout<< "The largest among the three numbers is: " << n3;
+	
+	_getch();
+	return 0;
+}
+
+
+5
+#include<iostream>
+#include<conio.h>
+
+
+using namespace std;
+
+int main()
 
 {
+	int x;
+	for (x=1;x<=9;x++)
+	{
+	cout<< x << ",";
+	}
+	for (x=10;x<=28;x+=2)
+	{
+	cout<< x << ",";
+	}
+	
+	
+	if (x=30)
+	cout<< "30";
 
-                int n1, n2, n3;
-
-                cout<< "Enter the first number: ";
-
-                cin>> n1;
-
-                cout<< "Enter the second number: ";
-
-                cin>> n2;
-
-                cout<< "Enter the third number: ";
-
-                cin>> n3;
-
-               
-
-                if (n1 >= n2 && n1 >= n3)
-
-                cout<< "The largest among the three numbers is: " << n1;
-
-                else if (n2 >= n1 && n2 >= n3)
-
-                cout<< "The largest among the three numbers is: " << n2;
-
-                else
-
-                cout<< "The largest among the three numbers is: " << n3;
-
-               
-
-                _getch();
-
-                return 0;
-
+	
+_getch ();
+return 0;	
 }
+
