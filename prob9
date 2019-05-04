@@ -6,7 +6,7 @@ using namespace std;
 int main ()
 {
 	
-	int row, col, a, b, sym;
+	int row, col, a, b;
 	cout<< "How many rows: ";
 	cin>> row;
 	
