@@ -1,67 +1,35 @@
 #include<iostream>
-
 #include<conio.h>
-
- 
 
 using namespace std;
 
- 
-
 int main ()
-
 {
-
-                float prev, unpaid, recent, bill, totalbill;
-
-               
-
-                cout<< "Enter the gallons that are used for the previous month: ";
-
-                cin>>prev;
-
-               
-
-                cout<< "Enter the gallons that are used for the this month: ";
-
-                cin>> recent;
-
-               
-
-                cout<< "Enter your unpaid balance: ";
-
-                cin>> unpaid;
-
-               
-
-                bill= 35 + ((recent - prev) * 1.1);
-
-               
-
-               
-
-                if (prev> 0)
-
-                totalbill += 20;
-
-               
-
-                else
-
-                totalbill += 0;
-
-               
-
-                totalbill = bill;
-
-               
-
-                cout<< "The total amount of your water bill is: P" <<totalbill;
-
-               
-
-                _getch();
-
-                return 0;
-
+	float prev, unpaid, recent, bill, totalbill;
+	
+	cout<< "Enter the gallons that are used for the previous month: ";
+	cin>>prev;
+	
+	cout<< "Enter the gallons that are used for the this month: ";
+	cin>> recent;
+	
+	cout<< "Enter your unpaid balance: ";
+	cin>> unpaid;
+	
+	bill= 35 + ((recent - prev) * 1.1);
+	
+	
+	if (prev> 0)
+	totalbill += 20;
+	
+	else
+	totalbill += 0;
+	
+	totalbill = bill;
+	
+	cout<< "The total amount of your water bill is: P" <<totalbill;
+	
+	_getch();
+	return 0;
 }
+
