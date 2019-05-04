@@ -1,0 +1,53 @@
+#include<iostream>
+
+#include<conio.h>
+
+ 
+
+ 
+
+using namespace std;
+
+ 
+
+int main()
+
+ 
+
+{
+
+                int num, num1, num2, num3;
+
+               
+
+                for (num=0;num<=20;num++)
+
+                {
+
+                if (num==0)
+
+                {
+
+                                cout<< num << " ";
+
+                }
+
+               
+
+                num3 = num1 + num2;
+
+                num1 = num2;
+
+                num2 = num3;
+
+                cout<< num3 << " " ;
+
+               
+
+}             
+
+_getch ();
+
+return 0;             
+
+}
