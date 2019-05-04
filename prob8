@@ -1,0 +1,39 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main ()
+{
+	
+	int num, num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;
+	
+	cout<< "Enter a number: ";
+	cin>> num;
+	cout<< "Multiplication table of " << num <<":"<<endl;
+	
+	num1 = 1 * num;
+	num2 = 2 * num;
+	num3 = 3 * num;
+	num4 = 4 * num;
+	num5 = 5 * num;
+	num6 = 6 * num;
+	num7 = 7 * num;
+	num8 = 8 * num;
+	num9 = 9 * num;
+	num10 = 10 * num;
+	
+	cout<< "1 * " <<num  << " = " << num1 <<endl;
+	cout<< "2 * " <<num  << " = " << num2 <<endl;
+	cout<< "3 * " <<num  << " = " << num3 <<endl;
+	cout<< "4 * " <<num  << " = " << num4 <<endl;
+	cout<< "5 * " <<num  << " = " << num5 <<endl;
+	cout<< "6 * " <<num  << " = " << num6 <<endl;
+	cout<< "7 * " <<num  << " = " << num7 <<endl;
+	cout<< "8 * " <<num  << " = " << num8 <<endl;
+	cout<< "9 * " <<num  << " = " << num9 <<endl;
+	cout<< "10 * " <<num  << " = " << num10 <<endl;
+
+	_getch();
+	return 0;
+	}
