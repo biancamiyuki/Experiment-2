@@ -1,53 +1,27 @@
 #include<iostream>
-
 #include<conio.h>
 
- 
-
- 
 
 using namespace std;
 
- 
-
 int main()
 
- 
-
 {
+	int x;
+	for (x=1;x<=9;x++)
+	{
+	cout<< x << ",";
+	}
+	for (x=10;x<=28;x+=2)
+	{
+	cout<< x << ",";
+	}
+	
+	
+	if (x=30)
+	cout<< "30";
 
-                int x;
-
-                for (x=1;x<=9;x++)
-
-                {
-
-                cout<< x << ",";
-
-                }
-
-                for (x=10;x<=28;x+=2)
-
-                {
-
-                cout<< x << ",";
-
-                }
-
-               
-
-               
-
-                if (x=30)
-
-                cout<< "30";
-
- 
-
-               
-
+	
 _getch ();
-
-return 0;             
-
+return 0;	
 }
